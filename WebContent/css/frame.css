@@ -1,0 +1,79 @@
+@charset "UTF-8";
+*{padding:0;margin:0 auto;}
+
+
+/* 头部 */
+.main-top{
+	height:50px;
+	line-height:50px;
+	font-size:30px;
+	text-align:center;
+	width:100%;
+	background:lightgray;
+}
+div span{
+	font-size:25px;
+	position:absolute;
+	right:5%;
+	top:0px;
+}
+div span:hover{
+	cursor:pointer;
+	background:black;
+	color:white;
+	text-decoration: underline;
+}
+/* 底部 */
+.main-bottom{
+	height:50px;
+	line-height:50px;
+	font-size:30px;
+	text-align:center;
+	width:100%;
+	background:lightgray;
+}
+/* 左边  */
+.left{
+	background:black;
+}
+.main-left div{
+	width:100%;
+	font-size:30px;
+	background:#ff8040;
+	height:500px;
+	width:20%;
+	float:left;
+}
+.main-left:after{
+	content:'1';
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden;
+}
+.main-left{*zoom:1;}
+.clear{clear:both;}
+.main-left div{
+	padding-top:200px;
+}
+.main-left p{
+	margin-bottom:20px;
+}
+.main-left p:hover{
+	cursor:pointer;
+	background:black;
+	color:white;
+	text-decoration: underline;
+}
+.middle{
+	position:relative;
+}
+.main-right{
+	float:right;
+	position:absolute;
+	top:10px;
+	right:0;
+	width:80%;
+	height:600px;
+	/* border:solid; */
+}

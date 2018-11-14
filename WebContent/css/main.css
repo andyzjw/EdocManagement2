@@ -1,0 +1,123 @@
+@charset "UTF-8";
+
+*{margin:0;padding:0;}
+.main{
+	width:1000px;
+	margin:auto;
+}
+.main .supnav{
+	text-align:center;
+}
+/* 按钮设置*/
+.main .supnav input:nth-child(3){
+	padding:5px;
+	font-size:17px;
+	margin-right:200px;
+}
+.main .supnav input[type='button']{
+	padding:5px;
+	font-size:17px;
+}
+/* 电子文档列表 */
+.main-bottom{
+	border:solid 2px lightgray;
+	width:1000px;
+}
+.main-bottom table{
+	width:1000px;
+	font-size:20px;
+}
+.main-bottom table tr:nth-child(1){
+	font-size:25px;
+}
+.main-bottom table caption{
+	width:1000px;
+	font-size:40px;
+	padding:5px;
+}
+
+/* 增加页面设置 */
+.main-add{
+	width:700px;
+	margin:10px auto;
+	border:solid;	
+}
+.main-add span{
+	color:red;
+}
+.main-add table{
+	width:700px;
+	font-size:23px;
+	background:lightgray;
+}
+.main-add table tr{
+		background:white;
+}
+.main-add table tr td{
+	padding:10px;
+}
+.main-add table caption{
+	font-size:40px;
+	font-weight:bolder;
+	padding:20px;
+	background:#ccf6ce;
+}
+.main-add table input{
+	height:30px;
+	font-size:20px;
+}
+.main-add table textarea{
+	font-size:20px;
+}
+
+/* modify */
+.main-modify{
+	width:700px;
+	margin:10px auto;
+	border:solid;	
+}
+.main-modify span{
+	color:red;
+}
+.main-modify table{
+	width:700px;
+	font-size:23px;
+	background:lightgray;
+}
+.main-modify table tr{
+		background:white;
+}
+.main-modify table tr td{
+	padding:10px;
+}
+.main-modify table caption{
+	font-size:40px;
+	font-weight:bolder;
+	padding:20px;
+	background:#ccf6ce;
+}
+.main-modify table input{
+	height:30px;
+	font-size:20px;
+}
+.main-modify table textarea{
+	font-size:20px;
+}
+
+.suc{
+	color:green;
+}
+.fail{
+	color:red;
+}
+.showState,.to{
+	display:inline-block;
+}
+.showState{
+	margin-right:100px;
+	font-size:18px;
+}
+.to input{
+	font-size:18px;
+	padding:5px;
+}
